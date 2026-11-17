@@ -1,40 +1,80 @@
 <div align="center">
 
-# @jiracipika
+# Santos Gajadhar
 
-**Cloud infrastructure engineer · Azure · Terraform · secure-by-default IaC**
+### Software Engineer · Full-Stack Development · Quality Engineering · Cloud/DevOps
+
+I build software, automate the testing that keeps it reliable, and improve how it ships.
+
+[**Portfolio**](https://santosg.vercel.app) · [**LinkedIn**](https://www.linkedin.com/in/santos-gajadhar/) · [**QABrew**](https://qabrew.vercel.app) · [**Email**](mailto:santosgajadhar@gmail.com)
 
 </div>
 
-Systems background (Darwin/XNU kernel & platform work — see pinned repos), now
-building production-grade Azure infrastructure as code.
+---
 
-## Azure Cloud Engineering Portfolio
+## About me
 
-Ten repositories, one standard: runnable Terraform modules, security controls,
-unit-tested policy, and an **honest validation log** in every repo —
-`docs/VALIDATION.md` records the real commands, real timestamps, the failures
-that broke validation, and the schema-verified fixes. No stock console
-screenshots.
+I'm a Toronto-based software engineer working across **full-stack development, software quality, and delivery automation**. My experience spans web and mobile applications, backend/API work, security-sensitive banking workflows, automated testing, and CI/CD. I'm expanding that foundation into **Azure, Terraform, and cloud/platform engineering**.
 
-Everything is **offline-validated and deploy-gated** (`deploy_enabled = false`
-by default): `terraform plan` with defaults proposes zero resources, and
-nothing touches a paid subscription without explicit owner review.
+My approach is end-to-end: **build the feature, test the behavior, automate the release, and understand how it runs.**
 
-| Repository | What it demonstrates |
+## Where I've worked
+
+**Software Development Engineer in Test · Scotiabank (FDM consulting placement)**
+
+- Contributed to ScotiaConnect authentication and account-recovery modernization, involving **Java/Spring, React, REST APIs, and SQL**.
+- Designed and maintained functional, regression, integration, and end-to-end automated tests using **Selenium, TestNG, Robot Framework, Playwright, JUnit, and Jest**.
+- Worked with developers, analysts, and QA teams on secure identity workflows, API validation, and Agile delivery using tools including **Jenkins and SonarQube**.
+
+**Web Developer · Gross Innovations**
+
+- Built and supported web applications, including **AI-assisted matching and OCR** workflows.
+- Worked on **OAuth, two-factor authentication, AWS deployments**, and cross-functional software delivery.
+
+## Technical toolkit
+
+| Area | Tools and technologies |
 |---|---|
-| [azure-secure-static-website](https://github.com/jiracipika/azure-secure-static-website) | Front Door Premium + WAF (Prevention) + Private Link to a hardened storage origin (Entra-only auth), GitHub OIDC deploy identity, accessible demo site — **[live demo](https://jiracipika.github.io/azure-secure-static-website/)** |
-| [azure-landing-zone](https://github.com/jiracipika/azure-landing-zone) | 9-node management-group hierarchy, governance baseline (allowed-locations Deny, VM-SKU Deny, tag Audit, diagnostics DeployIfNotExists), least-privilege custom role, hub-spoke with Azure Firewall + Bastion, budget alerts — 64 tests + a policy simulator that parses the real HCL |
-| [azure-terraform-cicd](https://github.com/jiracipika/azure-terraform-cicd) | OIDC-federated plan/apply identities, promotion policy as code, inert environment-gated pipeline templates, validation-only CI — 70-test battery + pipeline policy simulator |
-| [azure-monitoring-cost-control](https://github.com/jiracipika/azure-monitoring-cost-control) | Log Analytics with cost brakes (ingestion quota, retention), KQL alert rules, 50/80/100% budgets, triage workbook — monitor simulator replaying alert/budget state machines against the real HCL |
-| 6 more | networking, HA webapp, disaster recovery, hybrid hub-spoke, identity & access, production AKS — advancing one milestone every week |
+| **Languages** | Java, TypeScript, JavaScript, Python, SQL, C++, Go |
+| **Full-stack & APIs** | React, Next.js, Node.js, Express, Spring, REST APIs, MongoDB, MySQL/PostgreSQL |
+| **Testing & quality** | Playwright, Selenium, TestNG, JUnit, Jest, Robot Framework, Postman, REST Assured |
+| **Cloud & delivery** | AWS, Azure, Docker, Terraform, GitHub Actions, Jenkins, SonarQube, Git |
+| **Platforms & other work** | iOS/Android, Swift, Kotlin, Linux, Prometheus, monitoring and observability |
 
-## Currently
+*These represent a mix of professional experience, personal projects, and technologies I'm actively developing—not equal depth in every tool.*
 
-- Open to freelance Azure/Terraform infrastructure work: secure static sites,
-  landing zones, CI/CD pipelines with OIDC (no stored secrets),
-  monitoring & cost guardrails.
-- Contact: *(to be added)*
+## Selected projects
 
-> Every repo documents its own teardown path and cost estimate before anything
-> is ever deployed. Infrastructure you can audit before you pay for it.
+| Project | What I built / am building | Links |
+|---|---|---|
+| **Canada Rep Finder** | Cross-platform civic information app helping Canadians discover their political representatives. Built with React, TypeScript and Capacitor. | [iOS](https://apps.apple.com/ca/app/rep-finder-for-canada/id6753271444) · [Android](https://play.google.com/store/apps/details?id=com.marcelsabas.canadarepfinder) |
+| **QABrew** | Interactive QA learning environment with ISTQB-oriented lessons, quizzes, test-design exercises, bug-hunting games, and a fictional banking test sandbox. | [Live app](https://qabrew.vercel.app) · [Repository](https://github.com/jiracipika/qa-lab) |
+| **Student Recruitment Platform** | Web application concept connecting students and employers, using Java, React, Node.js, TypeScript, AWS and MongoDB. | [Portfolio](https://santosg.vercel.app/#work) |
+| **Santos OS** | My responsive, interactive portfolio with accessibility-minded UI, desktop-inspired interactions and browser testing. | [Live site](https://santosg.vercel.app) |
+| **Azure Secure Static Website** | Public Azure infrastructure lab exploring Front Door Premium, WAF, private storage origins, GitHub OIDC and secure delivery. | [Repository](https://github.com/jiracipika/azure-secure-static-website) |
+
+### Cloud & DevOps engineering
+
+I'm developing a **10-project Azure infrastructure portfolio** covering networking, identity, infrastructure as code, delivery pipelines, high availability, disaster recovery, Kubernetes, monitoring, and cost control.
+
+The focus is on **repeatable Terraform, security boundaries, automated validation, documented tradeoffs, and cost-aware deployments**. Most Azure lab repositories are private; the [secure static website lab](https://github.com/jiracipika/azure-secure-static-website) is public. Where infrastructure has not been deployed, its documentation distinguishes offline validation from live Azure evidence.
+
+### Other engineering interests
+
+Mobile development, developer tools, AI-assisted workflows, security, and observability. My [portfolio](https://santosg.vercel.app/#work) also showcases a Docker/Prometheus alerting project, an AI voice-assistant prototype, and security-focused systems work.
+
+## What I'm looking for
+
+Opportunities in **full-stack software engineering**, **SDET / quality engineering**, and **cloud or DevOps-oriented engineering**—especially teams that value developers who can own quality and delivery alongside implementation.
+
+Outside software, I also produce music under **Rai**.
+
+---
+
+<div align="center">
+
+**Build it. Test it. Ship it.**
+
+[Portfolio](https://santosg.vercel.app) · [GitHub](https://github.com/jiracipika) · [LinkedIn](https://www.linkedin.com/in/santos-gajadhar/)
+
+</div>
